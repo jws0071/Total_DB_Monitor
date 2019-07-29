@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.50.103.115:3306/mysql?autoReconnect=true&useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC
+    username: dbajws
+    password: wjddntjs01!
+mybatis:
+  type-aliases-package: com.example.webservice.mapper
+  mapper-locations: mybatis/mapper/**/*.xml
